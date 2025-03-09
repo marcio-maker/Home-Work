@@ -1,0 +1,291 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.workout-card {
+    margin: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.workout-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.workout-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.workout-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.exercise-list {
+    list-style: none;
+    padding: 0;
+}
+
+.exercise-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.week-plan {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.week-card {
+    width: 48%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.week-header {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.week-content {
+    padding: 15px;
+}
+
+.anatomy-section {
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.anatomy-title {
+    color: #555;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.anatomy-tabs {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+
+.anatomy-tab {
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.anatomy-tab.active {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.anatomy-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #e74c3c;
+}
+
+.anatomy-content {
+    display: none;
+}
+
+.anatomy-content.active {
+    display: block;
+}
+
+.anatomy-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.challenge-section {
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.challenge-title {
+    color: #e74c3c;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.challenge-list {
+    list-style: none;
+    padding: 0;
+}
+
+.challenge-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.challenge-item:before {
+    content: '•';
+    color: #e74c3c;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.plan-section {
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.plan-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.plan-weeks {
+    list-style: none;
+    padding: 0;
+}
+
+.plan-week {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #e74c3c;
+}
+
+.hotel-workout {
+    margin: 15px;
+    background-color: #ffcccb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.hotel-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hotel-subtitle {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.hotel-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hotel-item {
+    padding: 5px 0;
+}
+
+.hotel-note {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.workout-selector {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.workout-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.workout-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.workout-type-label {
+    font-size: 0.9rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.footer-icon {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}

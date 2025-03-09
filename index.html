@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Workout App</title>
+    <link rel="stylesheet" href="homeworkout.css">
+</head>
+<body>
+    <header>
+        <h1>HOME WORKOUT</h1>
+    </header>
+
+    <div class="workout-selector">
+        <div class="workout-type">
+            <div class="workout-icon">C</div>
+            <span class="workout-type-label">Chest</span>
+        </div>
+        <div class="workout-type">
+            <div class="workout-icon">A</div>
+            <span class="workout-type-label">Abs</span>
+        </div>
+        <div class="workout-type">
+            <div class="workout-icon">L</div>
+            <span class="workout-type-label">Legs</span>
+        </div>
+        <div class="workout-type">
+            <div class="workout-icon">G</div>
+            <span class="workout-type-label">Gluteus</span>
+        </div>
+    </div>
+
+    <div class="workout-card">
+        <div class="workout-title">CHEST DAY WORKOUT</div>
+        <div class="workout-subtitle">DUMBBELLS & BODYWEIGHT</div>
+        <img src="https://barbend.com/wp-content/uploads/2022/12/Untitled-design-40.png" alt="Chest workout exercises" class="workout-image">
+    </div>
+
+    <div class="anatomy-section">
+        <h2 class="anatomy-title">Anatomy</h2>
+        <div class="anatomy-tabs">
+            <div class="anatomy-tab active" data-target="chest">Chest</div>
+            <div class="anatomy-tab" data-target="abs">Abs</div>
+            <div class="anatomy-tab" data-target="legs">Legs</div>
+            <div class="anatomy-tab" data-target="gluteus">Gluteus</div>
+        </div>
+        <div class="anatomy-content active" id="chest-content">
+            <img src="https://th.bing.com/th/id/R.5cfda408e01cf973a1310bfbfeefc0bc?rik=UT2rcqrjlWxHjA&riu=http%3a%2f%2fkruobi.com%2fwp-content%2fuploads%2f2017%2f06%2fpec-exercice-10.png&ehk=ZgZOR9FwUyMCae0bOzso8VHtRawnRkbXyvSH3loYOAk%3d&risl=&pid=ImgRaw&r=0" alt="Chest anatomy" class="anatomy-image">
+        </div>
+        <div class="anatomy-content" id="abs-content">
+            <img src="https://bodybuilding-wizard.com/wp-content/uploads/2015/03/abdominal-exercise-2-300x272@2x.jpg" alt="Abs anatomy" class="anatomy-image">
+        </div>
+        <div class="anatomy-content" id="legs-content">
+            <img src="https://classroomclipart.com/image/static2/preview2/muscle-strurcture-of-the-human-leg-10471.jpg" alt="Legs anatomy" class="anatomy-image">
+        </div>
+        <div class="anatomy-content" id="gluteus-content">
+            <img src="https://www.levelfitness.nl/wp-content/uploads/Screenshot-2021-11-09-at-14.51.22.jpg" alt="Gluteus anatomy" class="anatomy-image">
+        </div>
+    </div>
+
+    <div class="plan-section">
+        <h2 class="plan-title">The Plan is 3x for week</h2>
+        <ul class="plan-weeks">
+            <li class="plan-week">1 week</li>
+            <li class="plan-week">2 week</li>
+            <li class="plan-week">3 week</li>
+            <li class="plan-week">4 week</li>
+        </ul>
+    </div>
+
+    <div class="week-plan">
+        <div class="week-card">
+            <div class="week-header">1 week</div>
+            <div class="week-content">
+                <div class="hotel-title">Hotel Room Workout</div>
+                <div class="hotel-subtitle">no equipment, no excuses</div>
+                <ul class="hotel-list">
+                    <li class="hotel-item">10 push ups</li>
+                    <li class="hotel-item">20 tricep dips</li>
+                    <li class="hotel-item">30 squats</li>
+                    <li class="hotel-item">40 mason twists</li>
+                    <li class="hotel-item">50 sec Plank</li>
+                </ul>
+                <div class="hotel-note">Complete as many rounds as you can in 10-20 minutes</div>
+            </div>
+        </div>
+        <div class="week-card">
+            <div class="week-header">2 week</div>
+            <div class="week-content">
+                <div class="challenge-title">MORNING WORKOUT CHALLENGE</div>
+                <ul class="challenge-list">
+                    <li class="challenge-item">10 BURPEES</li>
+                    <li class="challenge-item">10 PUSH-UPS</li>
+                    <li class="challenge-item">10 SQUATS</li>
+                    <li class="challenge-item">30 SECOND PLANK</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="week-plan">
+        <div class="week-card">
+            <div class="week-header">3 week</div>
+            <div class="week-content">
+                <div class="challenge-title">Drop & Pants Size Workout</div>
+                <ul class="challenge-list">
+                    <li class="challenge-item">Repeat the 3x:</li>
+                    <li class="challenge-item">Squats - 25</li>
+                    <li class="challenge-item">Wall Sit/Squat - 10 each leg</li>
+                    <li class="challenge-item">Leg Raises - 25</li>
+                    <li class="challenge-item">Calf Raises - 3 x 1minute</li>
+                </ul>
+            </div>
+        </div>
+        <div class="week-card">
+            <div class="week-header">4 week</div>
+            <div class="week-content">
+                <div class="challenge-title">WEDNESDAY WORKOUT</div>
+                <div class="hotel-subtitle">"HOME WOD"</div>
+                <ul class="hotel-list">
+                    <li class="hotel-item">For Time:</li>
+                    <li class="hotel-item">Complete in under 30 minutes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="challenge-section">
+        <h2 class="challenge-title">CHALLENGE</h2>
+        <ul class="challenge-list">
+            <li class="challenge-item">10 push ups</li>
+            <li class="challenge-item">10 BURPEES</li>
+            <li class="challenge-item">Squats: 25</li>
+        </ul>
+    </div>
+
+    <div class="workout-card">
+        <div class="workout-title">WORKOUT LOG</div>
+        <ul class="exercise-list">
+            <li class="exercise-item">Day 1: 19 push ups</li>
+            <li class="exercise-item">100 jump squats</li>
+            <li class="exercise-item">50 squats</li>
+            <li class="exercise-item">10 PUSH-UPS</li>
+        </ul>
+    </div>
+
+    <div class="workout-card">
+        <div class="workout-title">Gluteus</div>
+        <ul class="exercise-list">
+            <li class="exercise-item">50 sec Plank</li>
+            <li class="exercise-item">10 SQUATS</li>
+            <li class="exercise-item">30 SECOND PLANK</li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="footer-item">
+            <div class="footer-icon">📅</div>
+            <span>Week</span>
+        </div>
+        <div class="footer-item">
+            <div class="footer-icon">📸</div>
+            <span>GoalPhoto</span>
+        </div>
+        <div class="footer-item">
+            <div class="footer-icon">🏆</div>
+            <span>Goals</span>
+        </div>
+    </footer>
+
+    <script src="homeworkout.js"></script>
+</body>
+</html>
